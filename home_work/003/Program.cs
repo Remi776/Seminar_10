@@ -1,7 +1,7 @@
 ﻿Console.Write("Enter the number > 1: ");
 int a = Convert.ToInt32(Console.ReadLine());
-
 Factorization(a);
+
 void Factorization(int number)
 {
     if (number == 0) return;

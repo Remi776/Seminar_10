@@ -10,7 +10,6 @@ void MonotonicSequence(int limit, int number = 0, int summ = 0)
         summ += i;
         number = i;
     }
-    //Console.Write(number + " "); // выводит в обратном порядке... долго не мог разобраться именно с выводом
     MonotonicSequence(--limit);
     Console.Write(number + " ");
 }
